@@ -1,0 +1,86 @@
+﻿body {
+    background: linear-gradient( 115deg, rgba(58, 58, 158, 0.5), rgba(136, 136, 206, 0.4) ), url("C:/Users/Branden's PC/desktop/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial;
+    padding: 50px;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    border: none;
+    background-color: rgba(68, 56, 62, 0.6);
+    color: white;
+    font-size: 1.1em;
+}
+
+h1 {
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 2rem;
+}
+
+    label:first-of-type {
+        margin-top: 2rem;
+    }
+
+input,
+textarea {
+    margin: 10px 0 0 0;
+    width: 98%;
+    min-height: 2em;
+}
+
+textarea {
+    width: 98.75%;
+}
+
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2.5em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+span {
+    vertical-align: middle;
+    font-size: 90%;
+}
+
+fieldset {
+    margin-top: -0.5em;
+    border: none;
+}
+
+fieldset:last-of-type {
+    padding-bottom: 1.5rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(55, 175, 101);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+textarea {
+    font-family: inherit;
+}
